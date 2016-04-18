@@ -6,3 +6,65 @@
     defined here.
 
 ***************************************************** */
+
+html,body {
+    height: 100%;
+}
+
+a {
+    color: #FE5000;
+}
+
+/**
+ * -------------------------
+ * @section Main Menu
+ * -------------------------
+ */
+
+section#main-menu {
+    background-color: #5f259f;
+}
+
+.navbar-main {
+    margin-bottom: 0;
+    background-color: #5f259f;
+    border: 0;
+    min-height: 38px;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.btn-warning {
+	background-color: #FE5000;
+	border-color: #FE5000;
+}
+
+.btn-info {
+	background-color: #0095c8;
+	border-color: #0095c8;
+}
+
+.home-shortcuts {
+	background-color: #5f259f;
+}
+
+.home-shortcuts li {
+	border-right: 1px solid #333f48;
+}
+
+.home-shortcuts li:first-child {
+	border-left: 1px solid #333f48;
+}
+
+#order-premium_comparison .price-table-container .price-table .top-head .top-area {
+    border-bottom: 1px solid #333f48;
+}
+
+#order-premium_comparison .price-table-container .price-table .top-head .price-area {
+    border-top: 1px solid #333f48;
+    color: #333f48;
+}
+
+div.header-lined h1 {
+    color: #0095c8;
+ }
